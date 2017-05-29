@@ -1,0 +1,107 @@
+ /* The Modal (background) */
+.sc-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.sc-close {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 9px 0;
+}
+
+.sc-close:hover,
+.sc-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+ /* Modal Header */
+.sc-modal-header {
+    padding: 2px 16px;
+    background-color: #D70019;
+    color: white;
+}
+
+.sc-modal-header h2{
+  color: #fff;
+  font-size: 15px;
+} 
+
+/* Modal Body */
+.sc-modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.sc-modal-footer {
+    padding: 20px;
+    background-color: #fff;
+    color: white;
+    text-align: center;
+}
+
+/* Modal Content */
+.sc-modal-content {
+    position: relative;
+    background-color: #fff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 0px;
+    width: 40%;
+    z-index: 1050;
+    border-radius: 5px;
+    overflow: hidden;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+
+
+.sc-btn-green{
+  background-color: #009E38;
+}
+
+.sc-btn-red{
+  background-color: #D70019;
+}
+
+.sc-button {
+  border-radius: 2px;
+  padding: 8px 25px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+}
+.sc-button:hover {
+  /*background: #06D85F;*/
+  opacity: 0.8;
+  color: #FFF;
+}
+
